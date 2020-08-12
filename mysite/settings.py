@@ -26,7 +26,7 @@ SECRET_KEY = '9s0!=rn6+wif^2)g%-27*_vmcro#7njuxvo=vjy4kdur1esg@q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["lvaczuhc.pythonanywhere.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -75,13 +75,14 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',   #  指定数据库驱动
-        'NAME': 'lvaczuhc$tzzy',   #  指定的数据库名
-        'USER': 'lvaczuhc',   #  数据库登录的用户名
-        'PASSWORD': 'Tzzy#21800202',  #  登录数据库的密码
-        'HOST': 'lvaczuhc.mysql.pythonanywhere-services.com',
+        'NAME': 'test_tzzy',   #  指定的数据库名
+        'USER': 'root',   #  数据库登录的用户名
+        'PASSWORD': 'Ctfo@123',  #  登录数据库的密码
+        'HOST': '172.16.10.24',
         'PORT': '3306',   #  数据库服务器端口，mysql默认为3306
     }
     # 'default': {
