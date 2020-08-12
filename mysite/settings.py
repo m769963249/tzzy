@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',   #  指定数据库驱动
-        'NAME': 'test_tzzy',   #  指定的数据库名
-        'USER': 'root',   #  数据库登录的用户名
-        'PASSWORD': 'Ctfo@123',  #  登录数据库的密码
-        'HOST': '172.16.10.24',
+        'NAME': 'lvaczuhc$tzzy',   #  指定的数据库名
+        'USER': 'lvaczuhc',   #  数据库登录的用户名
+        'PASSWORD': 'Tzzy#21800202',  #  登录数据库的密码
+        'HOST': 'lvaczuhc.mysql.pythonanywhere-services.com',
         'PORT': '3306',   #  数据库服务器端口，mysql默认为3306
     }
     # 'default': {
